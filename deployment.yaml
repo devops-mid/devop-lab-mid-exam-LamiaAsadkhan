@@ -14,9 +14,10 @@ spec:
     spec:
       containers:
       - name: web-app
-        image: your-roll-number/web-app:latest
+        image: your-dockerhub-username/your-roll-number-app
         ports:
         - containerPort: 5000
-        env:
-        - name: FLASK_ENV
-          value: production
+
+
+
+
